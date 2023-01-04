@@ -14,7 +14,7 @@ void main()
     
     // set outer loop from 1 - 10
     for (int n = 1; n <= 10; n++) {
-        for (int index = 0; index < i; index++) {
+        for (int index = 0; index < 5; index++) {
             result = (numbers[index] * n);
             
             if (n < 10) {

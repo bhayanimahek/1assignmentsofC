@@ -6,6 +6,6 @@ void main()
     scanf("%d%d%d ",&P,&R,&T);
     SI=(P*R*T)/100;
     printf("enter the S.I :%d",SI);
-   // printf("enter the amt.:%d",P+SI);
+    printf("enter the amt.:%d",P+SI);
 
 }

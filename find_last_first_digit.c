@@ -6,7 +6,7 @@ void main()
     scanf("%d",&n);
     m=n;
     int i;
-    while(n>=10)
+    while(n!=0)
     {
         n=n/10;
         i++;
@@ -17,13 +17,13 @@ void main()
         if(j==1)
         {
             printf("last=%d\n",r);
-            r1=r;
+           // r1=r;
            
         }
         if(j==i)
         {
             printf("first=%d\n",r);
-            r2=r;
+            //r2=r;
             
         }
         m=m/10;
@@ -34,6 +34,6 @@ void main()
 //printf("%d",r1+r2);
        // m=m/10;
        
-    }printf("%d",r1+r2);
+    }//printf("%d",r1+r2);
 
 }

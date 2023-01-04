@@ -5,23 +5,23 @@ void main()
     printf("enter the input:");
     x=getchar();
     putchar(x);
-    if(isalpha (x))
+    if(isalpha(x))
     {
         printf("IT IS A CHARATER");
     }
-    if(ispunct (x))
+    if(ispunct(x))
     {
         printf("IT IS A PUNCUATION");
     }
-    if(isdigit (x))
+    if(isdigit(x))
     {
         printf("IT IS A DIGIT");
     }
-    if(isupper (x))
+    if(isupper(x))
     {
         printf("IT IS A UPPER CASE CHARATER");
     }
-    if(islower (x))
+    if(islower(x))
     {
         printf("IT IS A LOWER CASE CHARATER");
     }
